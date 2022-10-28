@@ -1,4 +1,4 @@
-FROM dockette/debian:buster
+FROM dockette/debian:buster-slim
 
 RUN apt update && \
     apt dist-upgrade -y && \
